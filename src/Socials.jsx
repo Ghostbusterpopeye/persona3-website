@@ -19,27 +19,30 @@ const ROLES = [
 
 const ITEMS = [
   {
-    id: "twitch", label: "TWITCH", handle: "@yourname", href: "https://twitch.tv/yourname", icon: "🎮", barIcon: icon1, bars: 1, newBars: [0], counts: ["56"],
-    links: ["twitch.tv/videos/2041837265"],
+    id: "github", label: "GITHUB", handle: "@Ghostbusterpopeye", href: "https://github.com/Ghostbusterpopeye", icon: "🐙", barIcon: icon1, bars: 1, newBars: [0], counts: ["VIEW"],
+    links: ["github.com/Ghostbusterpopeye"],
     stats: [
-      { tag: "FOL", value: "1.2K", color: "#9147ff" },
-      { tag: "VWR", value: "042",  color: "#bf94ff" },
+      { tag: "DEV", value: "CODE", color: "#6e40c9" },
+      { tag: "SRC", value: "PUB",  color: "#8b5cf6" },
     ],
   },
   {
-    id: "instagram", label: "INSTAGRAM", handle: "@yourhandle", href: "https://instagram.com/yourhandle", icon: "📷", barIcon: icon2, bars: 5, newBars: [1, 2], counts: ["3.4M", "2.5M", "676K", "412K", "198K"],
-    links: ["instagram.com/p/C4xQmRrNk2a", "instagram.com/p/C3wLpBsOj7f", "instagram.com/reel/C2vKoArMi6e", "instagram.com/p/C1uJnZqLh5d", "instagram.com/reel/C0tImYpKg4c"],
+    id: "instagram", label: "INSTAGRAM", handle: "@alayubi_sultan", href: "https://www.instagram.com/alayubi_sultan/", icon: "📷", barIcon: icon2, bars: 2, newBars: [0], counts: ["FOLLOW", "VIEW"],
+    links: ["instagram.com/alayubi_sultan", "instagram.com/alayubi_sultan"],
     stats: [
-      { tag: "FOL", value: "3.4K", color: "#e1306c" },
-      { tag: "PST", value: "128",  color: "#f77737" },
+      { tag: "FOL", value: "OPEN", color: "#e1306c" },
+      { tag: "PST", value: "IGS",  color: "#f77737" },
     ],
   },
   {
-    id: "tiktok", label: "TIKTOK", handle: "@yourhandle", href: "https://tiktok.com/@yourhandle", icon: "🎵", barIcon: icon3, bars: 7, newBars: [0, 3, 5, 6], counts: ["5.1M", "3.7M", "2.2M", "1.4M", "831K", "490K", "217K"],
-    links: ["tiktok.com/@yourhandle/video/7318492016374859054", "tiktok.com/@yourhandle/video/7305837261940183342", "tiktok.com/@yourhandle/video/7291046385720348974", "tiktok.com/@yourhandle/video/7278392047163820334", "tiktok.com/@yourhandle/video/7264819203847165742", "tiktok.com/@yourhandle/video/7251047382916430126", "tiktok.com/@yourhandle/video/7237294018463851822"],
+    id: "linkedin", label: "LINKEDIN", handle: "@sultan-alayubi", href: "https://www.linkedin.com/in/sultan-alayubi-524760284/", icon: "💼", barIcon: icon3, bars: 2, newBars: [0], counts: ["CONNECT", "VIEW"],
+    links: [
+      "linkedin.com/in/sultan-alayubi-524760284",
+      "linkedin.com/in/sultan-alayubi-524760284",
+    ],
     stats: [
-      { tag: "FOL", value: "8.9K", color: "#00f2ea" },
-      { tag: "LKS", value: "52K",  color: "#ff0050" },
+      { tag: "NET", value: "PRO",  color: "#0a66c2" },
+      { tag: "JOB", value: "OPEN", color: "#00f2ea" },
     ],
   },
 ];
