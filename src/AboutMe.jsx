@@ -16,24 +16,24 @@ const MAIN_IMAGES = [mainm, mainm2, mainf];
 
 const REVEAL_CONTENT = [
   {
-    upper: ["name moneybagg", "age:23"],
-    lower: "major: computer science",
+    upper: ["Sultan Shalahuddin", "Jember, Indonesia"],
+    lower: "Major: Computer Science — Frontend / Design Engineer",
   },
   {
     upper: [
-      "Cleopatra lived closer to the Moon landing than to the building of the pyramids.",
-      "Vikings kept cats on ships for pest control (and vibes).",
-      "In medieval Europe, animals could be put on trial for crimes",
+      "Tefa Canning Polije — Company profile website (JavaScript, CSS)",
+      "UPA TIK Polije Visit System — Visitor management portal (PHP, MySQL, JS, CSS)",
+      "Internship @ PT Gamelab Indonesia — 3D asset pipelines & creative digital production",
     ],
-    lower: "abbove is some history fun fact",
+    lower: "Projects & Experience — 2024–2026",
   },
   {
     upper: [
-      "Oxford University founding is older than the Aztec Empire.",
-      "The shortest war in history lasted 38–45 minutes (Britain vs Zanzibar).",
-      "Humans have been writing for ~5,000 years",
+      "Email: sultanshalahuddin01@gmail.com",
+      "GitHub: github.com/Ghostbusterpopeye",
+      "LinkedIn: linkedin.com/in/sultan-alayubi-524760284",
     ],
-    lower: "yes it's a place holder",
+    lower: "Exploring new opportunities — Open to work",
   },
 ];
 
@@ -45,27 +45,31 @@ const ROLES = [
 
 const ITEMS = [
   {
-    id: "twitch", label: "ABOUT ME", handle: "@yourname", href: "https://twitch.tv/yourname", icon: "🎮", barIcon: icon1, bars: 1, newBars: [0], counts: ["56"],
-    links: ["twitch.tv/videos/2041837265"],
+    id: "profile", label: "ABOUT ME", handle: "@sultan", href: "https://github.com/Ghostbusterpopeye", icon: "👤", barIcon: icon1, bars: 1, newBars: [0], counts: ["2026"],
+    links: ["github.com/Ghostbusterpopeye"],
     stats: [
-      { tag: "FOL", value: "1.2K", color: "#9147ff" },
-      { tag: "VWR", value: "042",  color: "#bf94ff" },
+      { tag: "UNI", value: "POLIJE", color: "#4a8fff" },
+      { tag: "YR",  value: "2026",   color: "#53edff" },
     ],
   },
   {
-    id: "instagram", label: "FUN FACT ABOUT ME", handle: "@yourhandle", href: "https://instagram.com/yourhandle", icon: "📷", barIcon: icon2, bars: 5, newBars: [1, 2], counts: ["3.4M", "2.5M", "676K", "412K", "198K"],
-    links: ["instagram.com/p/C4xQmRrNk2a", "instagram.com/p/C3wLpBsOj7f", "instagram.com/reel/C2vKoArMi6e", "instagram.com/p/C1uJnZqLh5d", "instagram.com/reel/C0tImYpKg4c"],
+    id: "projects", label: "PROJECTS", handle: "@sultan", href: "https://github.com/Ghostbusterpopeye", icon: "💻", barIcon: icon2, bars: 2, newBars: [1], counts: ["2025", "2026"],
+    links: ["github.com/Ghostbusterpopeye", "github.com/Ghostbusterpopeye"],
     stats: [
-      { tag: "FOL", value: "3.4K", color: "#e1306c" },
-      { tag: "PST", value: "128",  color: "#f77737" },
+      { tag: "PRJ", value: "2",    color: "#e1306c" },
+      { tag: "NEW", value: "001",  color: "#f77737" },
     ],
   },
   {
-    id: "tiktok", label: "WIRED FACT ABOUT ME", handle: "@yourhandle", href: "https://tiktok.com/@yourhandle", icon: "🎵", barIcon: icon3, bars: 7, newBars: [0, 3, 5, 6], counts: ["5.1M", "3.7M", "2.2M", "1.4M", "831K", "490K", "217K"],
-    links: ["tiktok.com/@yourhandle/video/7318492016374859054", "tiktok.com/@yourhandle/video/7305837261940183342", "tiktok.com/@yourhandle/video/7291046385720348974", "tiktok.com/@yourhandle/video/7278392047163820334", "tiktok.com/@yourhandle/video/7264819203847165742", "tiktok.com/@yourhandle/video/7251047382916430126", "tiktok.com/@yourhandle/video/7237294018463851822"],
+    id: "contact", label: "CONTACT", handle: "@sultan", href: "mailto:sultanshalahuddin01@gmail.com", icon: "📬", barIcon: icon3, bars: 3, newBars: [0], counts: ["EMAIL", "GITHUB", "LINKEDIN"],
+    links: [
+      "mailto:sultanshalahuddin01@gmail.com",
+      "github.com/Ghostbusterpopeye",
+      "linkedin.com/in/sultan-alayubi-524760284",
+    ],
     stats: [
-      { tag: "FOL", value: "8.9K", color: "#00f2ea" },
-      { tag: "LKS", value: "52K",  color: "#ff0050" },
+      { tag: "STS", value: "OPEN",  color: "#22ff66" },
+      { tag: "LOC", value: "JMB",   color: "#53edff" },
     ],
   },
 ];
